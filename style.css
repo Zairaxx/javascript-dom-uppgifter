@@ -1,0 +1,11 @@
+#result {
+    width:60px;
+    height:40px;
+    border:1px solid black;
+    margin:5px 5px 5px 0;
+    background:lightgreen;
+}
+
+h1 {
+    display: none;
+}
