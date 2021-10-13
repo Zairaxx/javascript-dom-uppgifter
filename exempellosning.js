@@ -52,7 +52,7 @@ addTodoButton.addEventListener("click", () => {
             console.log(listItemValue);
             myTodos.forEach((todo,index) => {
                 if(todo === listItemValue.toLowerCase()){
-                    myTodos.splice(index,1,"done");
+                    myTodos.splice(index,1);
                 }
             })
             let liParent = e.target.parentElement;
